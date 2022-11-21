@@ -24,6 +24,7 @@ public class User {
 	private String endereco;
 	private String email;
 	private String telefone;
+	private String key;
 	private Date dataCadastro;
 	
 	public static User convert(UserDTO userDTO) {
@@ -33,6 +34,7 @@ public class User {
 		user.setCpf(userDTO.getCpf());
 		user.setEmail(userDTO.getEmail());
 		user.setTelefone(userDTO.getTelefone());
+		user.setKey(userDTO.getKey());
 		user.setDataCadastro(userDTO.getDataCadastro());
 		return user;
 	}
@@ -92,6 +94,16 @@ public class User {
 
 	public void setDataCadastro(Date dataCadastro) {
 		this.dataCadastro = dataCadastro;
+	}
+
+
+	public String getKey() {
+		return key;
+	}
+
+
+	public void setKey(String key) {
+		this.key = key;
 	}
 
 }

@@ -11,7 +11,7 @@ import dev.jefferson.userapi.model.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long>{
 	
-	Optional<User> findByCpf(final String cpf);
+	Optional<User> findByCpfAndKey(final String cpf, final String key);
 	
 	List<User> queryByNomeLike(final String name);
 

@@ -9,6 +9,7 @@ public class UserDTO {
 	private String endereco;
 	private String email;
 	private String telefone;
+	private String key;
 	private Date dataCadastro;
 
 	public String getNome() {
@@ -58,4 +59,13 @@ public class UserDTO {
 	public void setDataCadastro(Date dataCadastro) {
 		this.dataCadastro = dataCadastro;
 	}
+
+	public String getKey() {
+		return key;
+	}
+
+	public void setKey(String key) {
+		this.key = key;
+	}
+	
 }

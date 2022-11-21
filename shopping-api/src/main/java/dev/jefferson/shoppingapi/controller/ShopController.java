@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -51,8 +52,8 @@ public class ShopController {
 	
 	
 	@PostMapping
-	public ShopDTO newShop(@Valid @RequestBody ShopDTO shopDTO) {
-		return service.save(shopDTO);
+	public ShopDTO newShop(@Valid @RequestBody ShopDTO shopDTO, @RequestHeader (name = "key", required = true) final String key) {
+		return service.save(shopDTO, key);
 	}
 	
 	

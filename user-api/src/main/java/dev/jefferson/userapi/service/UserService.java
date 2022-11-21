@@ -2,6 +2,7 @@ package dev.jefferson.userapi.service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,8 +27,8 @@ public class UserService {
 	}
 	
 	
-	public UserDTO findByCpf(final String cpf) {
-		return userRepository.findByCpf(cpf).map(u-> DTOConverter.convert(u))
+	public UserDTO findByCpf(final String cpf, String key) {
+		return userRepository.findByCpfAndKey(cpf, key).map(u-> DTOConverter.convert(u))
 				.orElseThrow(() -> new UserNotFoundException("Not found"));
 	}
 	
@@ -41,6 +42,7 @@ public class UserService {
 	
 	public UserDTO save(UserDTO dto) {
 		dto.setDataCadastro(new Date());
+		dto.setKey(UUID.randomUUID().toString());
 		User user = userRepository.save(User.convert(dto));
 		return DTOConverter.convert(user);
 	}

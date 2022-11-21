@@ -12,11 +12,11 @@ import dev.jefferson.shoppingclient.exceptions.UserNotFoundException;
 public class UsuarioService {
 	
 	
-	public UserDTO getUserByCpf(final String cpf) {
+	public UserDTO getUserByCpf(final String cpf, final String key) {
 		
 		try {
 			RestTemplate restTemplate = new RestTemplate();
-			String url = "http://localhost:8080/user/cpf" + cpf;
+			String url = "http://localhost:8080/user/cpf" + cpf + "?key=" + key;
 			
 			ResponseEntity<UserDTO> response = restTemplate.getForEntity(url, UserDTO.class);
 			return response.getBody();

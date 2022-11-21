@@ -53,9 +53,9 @@ public class ShopService {
 	}
 	
 	
-	public ShopDTO save(final ShopDTO dto) {
+	public ShopDTO save(final ShopDTO dto, final String key) {
 		
-		if(userService.getUserByCpf(dto.getUserIdentifier()) == null) {
+		if(userService.getUserByCpf(dto.getUserIdentifier(), key) == null) {
 			return null;
 		}
 		
