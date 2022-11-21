@@ -1,0 +1,5 @@
+package dev.jefferson.shoppingapi.model;
+
+public class Shop {
+
+}

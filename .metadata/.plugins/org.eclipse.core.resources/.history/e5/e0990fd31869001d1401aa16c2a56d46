@@ -1,0 +1,5 @@
+package dev.jefferson.shoppingclient.exceptions;
+
+public class UserNotFoundException extends RuntimeException {
+
+}

@@ -1,0 +1,11 @@
+package dev.jefferson.shoppingapi.exceptions;
+
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class ShoppingControllerAdvice {
+	
+	
+	
+
+}

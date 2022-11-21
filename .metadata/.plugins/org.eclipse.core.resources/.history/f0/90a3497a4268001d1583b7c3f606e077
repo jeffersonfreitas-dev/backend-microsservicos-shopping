@@ -1,0 +1,5 @@
+package dev.jefferson.productapi.repository;
+
+public class CategoryRepository extends JpaRepository{
+
+}

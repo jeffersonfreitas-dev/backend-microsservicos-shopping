@@ -1,0 +1,37 @@
+package dev.jefferson.shoppingapi.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import dev.jefferson.shoppingapi.dto.ShopDTO;
+import dev.jefferson.shoppingapi.service.ShopService;
+
+@RestController
+@RequestMapping("/shop")
+public class ShopController {
+	
+	@Autowired
+	private ShopService service;
+	
+	@GetMapping
+	public List<ShopDTO> getShops() {
+		return service.getAll();
+	}
+	
+	@GetMapping("/shopByUser/{userIdentifier}")
+	public List<ShopDTO> getShops(@PathVariable final String userIdentifier) {
+		return service.getByUser(userIdentifier);
+	}
+	
+	@GetMapping("/shopByDate")
+	public List<ShopDTO> getShops(@RequestBody ShopDTO shopDTO) {
+		return service.getByDate(shopDTO);
+	}
+
+}

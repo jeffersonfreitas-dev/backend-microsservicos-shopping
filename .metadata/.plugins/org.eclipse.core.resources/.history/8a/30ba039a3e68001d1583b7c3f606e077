@@ -1,0 +1,5 @@
+package dev.jefferson.productapi.model;
+
+public class Product {
+
+}

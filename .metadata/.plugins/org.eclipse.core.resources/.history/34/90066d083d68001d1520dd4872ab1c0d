@@ -1,0 +1,14 @@
+package dev.jefferson.productapi.dto;
+
+public class CategoryDTO {
+	
+	private final long id;
+	private final String nome;
+	
+	public Category(String nome) {
+		this.nome = nome;
+	}
+	
+	public 
+
+}

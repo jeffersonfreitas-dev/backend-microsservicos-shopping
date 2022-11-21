@@ -1,0 +1,5 @@
+package dev.jefferson.shoppingapi.service;
+
+public class ProductService {
+
+}

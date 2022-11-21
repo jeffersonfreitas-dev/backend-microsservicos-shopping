@@ -1,0 +1,10 @@
+package dev.jefferson.productapi.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "produtos", schema = "products")
+public class Product {
+
+}

@@ -1,0 +1,49 @@
+package dev.jefferson.productapi.service;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import dev.jefferson.productapi.model.Product;
+import dev.jefferson.productapi.repository.ProductRepository;
+import dev.jefferson.shoppingclient.dto.ProductDTO;
+
+@Service
+public class ProductService {
+	
+	@Autowired
+	private ProductRepository repository;
+	
+	public List<ProductDTO> getAll() {
+		return repository.findAll().stream()
+				.map(ProductDTO::convert)
+				.collect(Collectors.toList());
+	}
+	
+	public List<ProductDTO> getProductByCategoryId(final long categoryId) {
+		return repository.getProductByCategory(categoryId).stream()
+				.map(ProductDTO::convert)
+				.collect(Collectors.toList());
+	}
+	
+	public ProductDTO findByProductIdentifier(final String productIdentifier) {
+		return repository.findByProductIdentifierIgnoreCase(productIdentifier)
+				.map(ProductDTO::convert)
+				.orElseThrow(() -> new IllegalArgumentException("ProductIdentifier not found"));
+	}
+	
+	public ProductDTO save (ProductDTO dto) {
+		Product product = repository.save(Product.convert(dto));
+		return ProductDTO.convert(product);
+	}
+	
+	
+	public void delete(final long productId) {
+		Product product = repository.findById(productId)
+				.orElseThrow(() -> new IllegalArgumentException("Product Id not found"));
+		repository.delete(product);
+	}
+
+}

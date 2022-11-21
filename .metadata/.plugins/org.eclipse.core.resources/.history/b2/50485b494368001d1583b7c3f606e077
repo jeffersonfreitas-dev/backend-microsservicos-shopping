@@ -1,0 +1,13 @@
+package dev.jefferson.productapi.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import dev.jefferson.productapi.model.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Long>{
+	
+	public List<Product> getProductByCategory(long category);
+
+}

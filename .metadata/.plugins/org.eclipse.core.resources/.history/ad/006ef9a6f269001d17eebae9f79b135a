@@ -1,0 +1,5 @@
+package dev.jefferson.shoppingapi.exceptions;
+
+public class ShoppingControllerAdvice {
+
+}

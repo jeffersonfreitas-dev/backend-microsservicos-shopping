@@ -1,0 +1,23 @@
+package dev.jefferson.productapi.dto;
+
+import dev.jefferson.productapi.model.Category;
+
+public class CategoryDTO {
+	
+	private final long id;
+	private final String nome;
+	
+	public CategoryDTO(final String nome) {
+		this.nome = nome;
+	}
+	
+	public CategoryDTO(final long id, final String nome) {
+		this.id = id;
+		this.nome = nome;
+	}
+	
+	public CategoryDTO convert(Category category) {
+		return new CategoryDTO(category.getId(), category.getNome());
+	}
+
+}

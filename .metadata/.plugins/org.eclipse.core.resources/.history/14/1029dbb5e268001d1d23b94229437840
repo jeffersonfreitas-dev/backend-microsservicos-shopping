@@ -1,0 +1,35 @@
+package dev.jefferson.shoppingapi.model;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.CollectionTable;
+import javax.persistence.ElementCollection;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
+
+@Entity
+@Table(name = "shop", schema = "shopping")
+public class Shop {
+	
+	@Id
+	@SequenceGenerator(name = "shop_idshop_seq", sequenceName = "shop_idshop_seq", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "shop_idshop_seq")
+	private long id;
+	private String userIdentifier;
+	private float total;
+	private Date date;
+	
+	@ElementCollection(fetch = FetchType.EAGER)
+	@CollectionTable(name = "item", JoinColumns = @JoinColumn(name = "id_shop"))
+	private List<Item> items;
+
+}

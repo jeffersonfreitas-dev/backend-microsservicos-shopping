@@ -1,0 +1,5 @@
+package dev.jefferson.productapi.service;
+
+public class ProductService {
+
+}

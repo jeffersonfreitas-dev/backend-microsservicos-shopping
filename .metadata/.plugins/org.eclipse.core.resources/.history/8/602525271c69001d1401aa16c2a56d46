@@ -1,0 +1,5 @@
+package dev.jefferson.productapi.exceptions;
+
+public class ProductNotFoundException extends RuntimeException {
+
+}

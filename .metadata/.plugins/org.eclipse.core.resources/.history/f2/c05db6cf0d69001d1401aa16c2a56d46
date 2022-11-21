@@ -1,0 +1,5 @@
+package dev.jefferson.shoppingapi.dto;
+
+public class DTOConverter {
+
+}

@@ -1,0 +1,26 @@
+package dev.jefferson.shoppingapi.dto;
+
+import java.util.stream.Collectors;
+
+import dev.jefferson.shoppingapi.model.Item;
+import dev.jefferson.shoppingapi.model.Shop;
+
+public class DTOConverter {
+	
+	public static ShopDTO convert(Shop shop) {
+		ShopDTO dto = new ShopDTO();
+		dto.setUserIdentifier(shop.getUserIdentifier());
+		dto.setDate(shop.getDate());
+		dto.setTotal(shop.getTotal());
+		dto.setItems(shop.getItems().stream().map(ItemDTO::convert).collect(Collectors.toList()));
+		return dto;
+	}
+
+	
+	public static ItemDTO convert(Item item) {
+		ItemDTO dto = new ItemDTO();
+		dto.setProductIdentifier(item.getProductIdentifier());
+		dto.setPrice(item.getPrice());
+		return dto;
+	}
+}

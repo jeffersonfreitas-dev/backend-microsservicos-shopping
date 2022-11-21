@@ -1,0 +1,30 @@
+package dev.jefferson.productapi.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "produtos", schema = "products")
+public class Product {
+	
+	@Id
+	@SequenceGenerator(name = "product_idproduct_seq", sequenceName = "product_idproduct_seq", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "product_idproduct_seq")
+	private long id;
+	private String nome;
+	private Float preco;
+	private String descricao;
+	private String productIdentifier;
+	
+	@ManyToOne
+	@JoinColumn(name = "id_categoria")
+	private Category category;
+	
+
+}

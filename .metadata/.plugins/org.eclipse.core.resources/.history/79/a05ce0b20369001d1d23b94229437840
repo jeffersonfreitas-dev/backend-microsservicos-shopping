@@ -1,0 +1,5 @@
+package dev.jefferson.shoppingapi.repository;
+
+public interface ReportRepository {
+
+}

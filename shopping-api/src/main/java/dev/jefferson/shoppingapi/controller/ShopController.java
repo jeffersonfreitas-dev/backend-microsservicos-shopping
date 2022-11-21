@@ -1,0 +1,73 @@
+package dev.jefferson.shoppingapi.controller;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import dev.jefferson.shoppingapi.dto.ShopReportDTO;
+import dev.jefferson.shoppingapi.service.ShopService;
+import dev.jefferson.shoppingclient.dto.ShopDTO;
+
+@RestController
+@RequestMapping("/shop")
+public class ShopController {
+	
+	@Autowired
+	private ShopService service;
+	
+	@GetMapping
+	public List<ShopDTO> getShops() {
+		return service.getAll();
+	}
+	
+	
+	@GetMapping("/shopByUser/{userIdentifier}")
+	public List<ShopDTO> getShops(@PathVariable final String userIdentifier) {
+		return service.getByUser(userIdentifier);
+	}
+	
+	
+	@GetMapping("/shopByDate")
+	public List<ShopDTO> getShops(@RequestBody final ShopDTO shopDTO) {
+		return service.getByDate(shopDTO);
+	}
+	
+	
+	@GetMapping("{id}")
+	public ShopDTO findById(@PathVariable final Long id) {
+		return service.findById(id);
+	}
+	
+	
+	@PostMapping
+	public ShopDTO newShop(@Valid @RequestBody ShopDTO shopDTO) {
+		return service.save(shopDTO);
+	}
+	
+	
+	@GetMapping("/search")
+	public List<ShopDTO> getShopByFilter(@RequestParam(name = "dataInicio", required = true) @DateTimeFormat(pattern = "dd/MM/yyyy") Date dataInicio,
+			@RequestParam(name = "dataFim", required = false) @DateTimeFormat(pattern = "dd/MM/yyyy") Date dataFim,
+			@RequestParam(name = "valorMinimo", required = false) Float valorMinimo) {
+		return service.getShopsByFilter(dataInicio, dataFim, valorMinimo);
+	}
+	
+	
+	@GetMapping("/report")
+	public ShopReportDTO getReportByDate(@RequestParam(name = "dataInicio", required = true) @DateTimeFormat(pattern = "dd/MM/yyyy") Date dataInicio,
+			@RequestParam(name = "dataFim", required = true) @DateTimeFormat(pattern = "dd/MM/yyyy") Date dataFim) {
+		return service.getReportByDate(dataInicio, dataFim);
+	}
+
+}

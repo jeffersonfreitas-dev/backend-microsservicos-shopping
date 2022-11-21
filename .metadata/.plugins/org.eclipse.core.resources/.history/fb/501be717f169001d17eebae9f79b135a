@@ -1,0 +1,29 @@
+package dev.jefferson.productapi.exceptions;
+
+import java.util.Date;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+import dev.jefferson.shoppingclient.exceptions.CategoryNotFoundException;
+import dev.jefferson.shoppingclient.exceptions.ErrorDTO;
+
+public class ProductNotFoundException extends RuntimeException {
+
+	private static final long serialVersionUID = 1L;
+	
+	@ResponseStatus(HttpStatus.NOT_FOUND)
+	@ExceptionHandler(ProductNotFoundException.class)
+	public ErrorDTO handlerProductNotFoundException(ProductNotFoundException ex) {
+		return new ErrorDTO(HttpStatus.NOT_FOUND.value(), ex.getMessage(), new Date());
+	}
+	
+	
+	@ResponseStatus(HttpStatus.NOT_FOUND)
+	@ExceptionHandler(CategoryNotFoundException.class)
+	public ErrorDTO handlerCategoryNotFoundException(CategoryNotFoundException ex) {
+		return new ErrorDTO(HttpStatus.NOT_FOUND.value(), ex.getMessage(), new Date());
+	}
+
+}

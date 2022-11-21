@@ -1,0 +1,51 @@
+package dev.jefferson.productapi.controller;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import dev.jefferson.productapi.service.ProductService;
+import dev.jefferson.shoppingclient.dto.ProductDTO;
+
+@RestController
+@RequestMapping("/products")
+public class ProductController {
+	
+	@Autowired
+	private ProductService service;
+	
+	@GetMapping
+	public List<ProductDTO> getProducts() {
+		return service.getAll();
+	}
+	
+	@GetMapping("/category/{id}")
+	public List<ProductDTO> getProductByCategory(@PathVariable final Long id) {
+		return service.getProductByCategoryId(id);
+	}
+	
+	@GetMapping("{productIdentifier}")
+	public ProductDTO findByIdentifier(@PathVariable final String productIdentifier) {
+		return service.findByProductIdentifier(productIdentifier);
+	}
+	
+	@PostMapping
+	public ProductDTO newProduct(@Valid @RequestBody ProductDTO dto) {
+		return service.save(dto);
+	}
+	
+	@DeleteMapping("{id}")
+	public void delete(@PathVariable final long id) {
+		service.delete(id);
+	}
+
+}

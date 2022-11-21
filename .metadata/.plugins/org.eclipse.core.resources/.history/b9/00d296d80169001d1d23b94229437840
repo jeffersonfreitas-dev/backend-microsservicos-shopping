@@ -1,0 +1,54 @@
+package dev.jefferson.shoppingapi.service;
+
+import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.stereotype.Service;
+
+import dev.jefferson.shoppingapi.dto.ShopDTO;
+import dev.jefferson.shoppingapi.model.Shop;
+import dev.jefferson.shoppingapi.repository.ShopRepository;
+
+@Service
+public class ShopService {
+	
+	private ShopRepository repository;
+	
+	
+	public List<ShopDTO> getAll() {
+		return repository.findAll().stream()
+				.map(ShopDTO::convert)
+				.collect(Collectors.toList());
+	}
+	
+	
+	public List<ShopDTO> getByUser(final String userIdentifier) {
+		return repository.findAllByUserIdentifier(userIdentifier).stream()
+				.map(ShopDTO::convert)
+				.collect(Collectors.toList());
+	}
+	
+	
+	public List<ShopDTO> getByDate(final ShopDTO shopDTO) {
+		return repository.findAllByDateGreaterThanEquals(shopDTO.getDate()).stream()
+				.map(ShopDTO::convert)
+				.collect(Collectors.toList());
+	}
+	
+	public ShopDTO findById(final long productId) {
+		return repository.findById(productId)
+				.map(ShopDTO::convert)
+				.orElseThrow(() -> new IllegalArgumentException("ProductId not found"));
+	}
+	
+	
+	public ShopDTO save(final ShopDTO dto) {
+		dto.setTotal(dto.getItems().stream().map(i -> i.getPrice()).reduce(0f, Float::sum));
+		Shop shop = Shop.convert(dto);
+		shop.setDate(new Date());
+		shop = repository.save(shop);
+		return ShopDTO.convert(shop);
+	}
+
+}

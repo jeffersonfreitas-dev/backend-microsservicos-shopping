@@ -1,0 +1,42 @@
+package dev.jefferson.productapi.dto;
+
+public class ProductDTO {
+	
+	private final String nome;
+	private final Float preco;
+	private final String descricao;
+	private final String productIdentifier;
+	private final CategoryDTO categoryDTO;
+	
+	public ProductDTO (final String nome, final Float preco, final String descricao, 
+			final String productIdentifier, final CategoryDTO categoryDTO) {
+		this.nome = nome;
+		this.preco = preco;
+		this.descricao = descricao;
+		this.productIdentifier = productIdentifier;
+		this.categoryDTO = categoryDTO;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public Float getPreco() {
+		return preco;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public String getProductIdentifier() {
+		return productIdentifier;
+	}
+
+	public CategoryDTO getCategoryDTO() {
+		return categoryDTO;
+	}
+	
+	
+
+}
