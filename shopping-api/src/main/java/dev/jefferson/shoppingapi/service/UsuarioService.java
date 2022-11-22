@@ -1,5 +1,6 @@
 package dev.jefferson.shoppingapi.service;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
@@ -11,12 +12,15 @@ import dev.jefferson.shoppingclient.exceptions.UserNotFoundException;
 @Service
 public class UsuarioService {
 	
+	@Value("${USER_API_URL:http://localhost:8080/user/}")
+	private String userApiUrl;
+	
 	
 	public UserDTO getUserByCpf(final String cpf, final String key) {
 		
 		try {
 			RestTemplate restTemplate = new RestTemplate();
-			String url = "http://localhost:8080/user/cpf" + cpf + "?key=" + key;
+			String url = userApiUrl + "cpf" + cpf + "?key=" + key;
 			
 			ResponseEntity<UserDTO> response = restTemplate.getForEntity(url, UserDTO.class);
 			return response.getBody();
