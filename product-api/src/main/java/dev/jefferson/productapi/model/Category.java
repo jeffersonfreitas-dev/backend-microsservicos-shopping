@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import dev.jefferson.shoppingclient.dto.CategoryDTO;
 
 @Entity
-@Table(name = "categorias", schema = "products")
+@Table(name = "categorias")
 public class Category {
 	
 	@Id

@@ -19,7 +19,7 @@ import dev.jefferson.shoppingclient.dto.ShopDTO;
 
 
 @Entity
-@Table(name = "shop", schema = "shopping")
+@Table(name = "shop")
 public class Shop {
 	
 	@Id

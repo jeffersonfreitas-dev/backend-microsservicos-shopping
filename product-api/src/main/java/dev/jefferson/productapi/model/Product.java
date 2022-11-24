@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import dev.jefferson.shoppingclient.dto.ProductDTO;
 
 @Entity
-@Table(name = "produtos", schema = "products")
+@Table(name = "produtos")
 public class Product {
 	
 	@Id
