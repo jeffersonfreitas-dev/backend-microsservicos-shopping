@@ -9,8 +9,5 @@ spring.datasource.username=${POSTGRES_USER:postgres}
 spring.datasource.password=${POSTGRES_PASSWORD:1q2w3e4r5t}
 
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.database=postgresql
-#spring.jpa.hibernate.naming.implicit-strategy = org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
-
 

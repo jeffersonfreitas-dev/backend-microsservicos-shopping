@@ -4,13 +4,12 @@ server.port=8080
 spring.datasource.hikari.connectionTimeout=20000
 spring.datasource.hikari.maximumPoolSize=5
 ## PostgreSQL
-spring.datasource.url=${POSTGRES_URL:jdbc:postgresql://localhost:5432/develop}
+spring.datasource.url=jdbc:postgresql://postgres:5432/develop
 spring.datasource.username=${POSTGRES_USER:postgres}
 spring.datasource.password=${POSTGRES_PASSWORD:1q2w3e4r5t}
 
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.database=postgresql
+#spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL94Dialect
 #spring.jpa.hibernate.naming.implicit-strategy = org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
 
 

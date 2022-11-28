@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+   app:
+      image: loja/user-api:0.0.1-SNAPSHOT
+      container_name: app
+      depends_on:
+         - db
+      environment:
+         POSTGRES_URL: jdbc:postgresql://db:5432/develop
+         POSTGRES_USER: postgres
+         POSTGRES_PASSWORD: postgres
+   db:
+      image: postgres:latest
+      container_name: db
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+        POSTGRES_DB: develop

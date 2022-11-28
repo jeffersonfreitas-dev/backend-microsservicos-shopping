@@ -2489,3 +2489,240 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2022-11-23 20:17:34,446 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-23 20:17:34,446 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-11-23 20:17:34,446 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-24 20:54:06,860 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-24 20:54:10,185 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier  to /shopping-client/target/classes
+2022-11-24 20:54:10,748 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 20:54:10,748 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-24 20:54:10,752 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-24 20:54:10,768 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-24 20:54:10,772 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 20:54:10,773 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-24 20:54:10,773 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/product-api/src/test/resources
+2022-11-25 19:49:38,338 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-25 19:50:48,021 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier  to /shopping-client/target/classes
+2022-11-25 19:50:48,364 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 19:50:48,364 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 19:50:48,368 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 19:50:48,386 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 19:50:48,391 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 19:50:48,391 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 19:50:48,391 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 19:52:18,458 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-25 19:55:03,447 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier  to /shopping-client/target/classes
+2022-11-25 19:55:03,763 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 19:55:03,763 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 19:55:03,767 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 19:55:03,787 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 19:55:03,794 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 19:55:03,794 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 19:55:03,794 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 19:55:59,540 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 19:55:59,540 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 19:55:59,542 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 19:55:59,548 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 19:55:59,552 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 19:55:59,552 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 19:55:59,552 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:00:52,378 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:00:52,379 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:00:52,380 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:00:52,391 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:00:52,403 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:00:52,404 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:00:52,404 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:06:33,049 [Worker-10: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:06:33,074 [Worker-10: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:06:33,093 [Worker-10: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:07:10,863 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:07:10,863 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:07:10,864 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:07:10,875 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:07:10,882 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:07:10,883 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:07:10,883 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:07:15,350 [Worker-16: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:07:15,367 [Worker-16: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:07:15,379 [Worker-16: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:09:38,615 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:09:38,615 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:09:38,616 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:09:38,621 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:09:38,624 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:09:38,624 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:09:38,624 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:09:53,211 [Worker-22: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:09:53,222 [Worker-22: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:09:53,234 [Worker-22: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:17:37,966 [Worker-21: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:17:37,978 [Worker-21: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:17:37,995 [Worker-21: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:19:44,424 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:19:44,424 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:19:44,424 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:19:44,433 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:19:44,435 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:19:44,435 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:19:44,435 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:19:50,504 [Worker-30: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:19:50,518 [Worker-30: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:19:50,530 [Worker-30: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:20:06,296 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:20:06,296 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:20:06,296 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:20:06,308 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:20:06,312 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:20:06,312 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:20:06,312 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:20:09,699 [Worker-33: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:20:09,719 [Worker-33: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:20:09,730 [Worker-33: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:20:31,536 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:20:31,536 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:20:31,536 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:20:31,544 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:20:31,550 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:20:31,550 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:20:31,550 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:20:45,763 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:20:45,763 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:20:45,763 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:20:45,772 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:20:45,774 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:20:45,774 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:20:45,774 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:20:48,937 [Worker-29: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:20:48,953 [Worker-29: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:20:48,967 [Worker-29: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:21:20,038 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:21:20,038 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:21:20,038 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:21:20,044 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:21:20,046 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:21:20,046 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:21:20,046 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:21:41,554 [Worker-26: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:21:41,568 [Worker-26: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:21:41,580 [Worker-26: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:25:39,075 [Worker-26: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:25:39,096 [Worker-26: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:25:39,114 [Worker-26: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:26:37,832 [Worker-35: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:26:37,845 [Worker-35: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:26:37,857 [Worker-35: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:28:10,829 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:28:10,830 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:28:10,830 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:28:10,854 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:28:10,857 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:28:10,857 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:28:10,857 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:28:28,100 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:28:28,101 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:28:28,102 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:28:28,115 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:28:28,119 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:28:28,119 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:28:28,119 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:28:33,324 [Worker-32: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:28:33,340 [Worker-32: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:28:33,350 [Worker-32: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:30:06,707 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:30:06,707 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:30:06,707 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:30:06,718 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:30:06,723 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:30:06,723 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:30:06,723 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:30:13,629 [Worker-43: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:30:13,639 [Worker-43: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:30:13,650 [Worker-43: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:33:30,313 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:33:30,313 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:33:30,313 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:33:30,331 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:33:30,337 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:33:30,337 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:33:30,337 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:33:36,621 [Worker-44: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:33:36,632 [Worker-44: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:33:36,642 [Worker-44: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:33:48,039 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:33:48,039 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:33:48,040 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:33:48,049 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:33:48,053 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:33:48,053 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:33:48,053 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:33:51,202 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:33:51,213 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:33:51,224 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:35:00,610 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:35:00,610 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:35:00,610 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:35:00,621 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:35:00,624 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:35:00,624 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:35:00,624 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:35:03,996 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:35:04,007 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:35:04,016 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:35:48,811 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:35:48,811 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:35:48,811 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:35:48,818 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:35:48,821 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:35:48,821 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:35:48,821 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 20:35:52,689 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:35:52,699 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:35:52,708 [Worker-48: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 20:37:08,745 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:37:08,746 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:37:08,746 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 20:37:08,757 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 20:37:08,759 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 20:37:08,759 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 20:37:08,759 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 21:26:17,378 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 21:26:17,402 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 21:26:17,402 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 21:26:17,412 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 21:26:17,418 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 21:26:17,418 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 21:26:17,418 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 21:26:21,201 [Worker-52: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 21:26:21,211 [Worker-52: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 21:26:21,220 [Worker-52: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 21:26:35,574 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 21:26:35,574 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 21:26:35,575 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 21:26:35,595 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 21:26:35,598 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 21:26:35,598 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 21:26:35,598 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 21:26:38,820 [Worker-54: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 21:26:38,831 [Worker-54: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 21:26:38,841 [Worker-54: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-25 21:27:21,093 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 21:27:21,093 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 21:27:21,094 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 21:27:21,098 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 21:27:21,101 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 21:27:21,101 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 21:27:21,101 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-25 21:59:40,292 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 21:59:40,294 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 21:59:40,295 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-25 21:59:40,306 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-25 21:59:40,310 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 21:59:40,310 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-25 21:59:40,310 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Documents/workspace-spring-tool-suite-4-4.16.1.RELEASE/user-api/src/test/resources
+2022-11-28 19:54:53,934 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-28 19:56:52,262 [Worker-5: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier  to /shopping-client/target/classes
+2022-11-28 19:56:52,373 [Worker-5: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-28 19:56:52,390 [Worker-5: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-28 19:56:52,405 [Worker-5: Launching user-api - UserApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-28 19:59:11,205 [Worker-10: Launching product-api - ProductApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier  to /shopping-client/target/classes
+2022-11-28 19:59:11,215 [Worker-10: Launching product-api - ProductApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-28 19:59:11,232 [Worker-10: Launching product-api - ProductApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
+2022-11-28 19:59:11,247 [Worker-10: Launching product-api - ProductApiApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shopping-client: dev.jefferson:shopping-client:0.0.1-SNAPSHOT with classifier null to /shopping-client/target/classes
